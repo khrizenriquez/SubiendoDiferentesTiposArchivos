@@ -3,13 +3,13 @@ require_once("dompdf/dompdf_config.inc.php");
 $texto="mi texto";
 $html=
 "<html>
-<body>
-Hola mundo
-<br />
-Visiten <strong>www.cesarcancino.com</strong>
-<hr />
-$texto
-</body>
+	<body>
+		Hola mundo
+		<br />
+		Visiten <strong>www.cesarcancino.com</strong>
+		<hr />
+		$texto
+	</body>
 </html>
 ";
 //echo $html;

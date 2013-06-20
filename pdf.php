@@ -14,11 +14,11 @@ $datacreator = array (
 					'Creator'=>'khriz@khriz.com',
 					'Producer'=>'https://twitter.com/khrizEnriquez'
 					);
-$pdf->addInfo($datacreator);	
+$pdf->addInfo($datacreator);
 
 //traemos la data de nuestra base de datos
-$tra = new Trabajo();	
-$reg = $tra->obtenerNoticias();	
+$tra = new Trabajo();
+$reg = $tra->obtenerNoticias();
 //cargamos la información en el array multidimensional llamado data
 for ($i=0;$i<sizeof($reg);$i++)
 {//inicio for
@@ -52,8 +52,7 @@ $options = array(
 //ponemos un título
 $pdf->ezText("<b>Noticias de la Web</b>\n",16);	
 //creamos la tabla dentro del pdf
-$pdf->ezTable($data,$titles,'',$options );
+$pdf->ezTable($data,$titles,'',$options);
 //mostramos el pdf
 $pdf->ezStream();
-
 ?>

@@ -88,9 +88,13 @@ require_once("class/class.php");
 				<td align="center" colspan="7">
 					<hr>
 					<button class='btn btn-success' type="button" title="Presioname para poder exportar este archivo a excel" onClick="window.location='excel.php'"><i class='icon-th icon-white'></i>Exportar a Excel</button>
+
 					<button class='btn btn-primary' type="button" title="Presioname para poder exportar este archivo a archivo txt" onClick="window.location='txt.php';"><i class='icon-edit icon-white'></i>Exportar a TXT</button>
+
 					<button class='btn btn-danger' type="button" title="Presioname para poder exportar este archivo a un pdf" onClick="window.location='pdf.php';"><i class='icon-file icon-white'></i>Exportar a PDF</button>
+
 					<button class='btn btn-danger' type="button"title="Presioname para poder exportar este archivo a un pdf por medio de html" onClick="window.location='pdf_html.php';"><i class='icon-list icon-white'></i>PDF con HTML</button>
+					
 				</td>
 			</tr>
 		</table>
